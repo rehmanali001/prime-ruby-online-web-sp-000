@@ -7,6 +7,7 @@ def prime?(num)
   while i < limit
   if num % i == 0 
     return false 
+  end 
   
 end
 end
