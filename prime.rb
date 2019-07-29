@@ -4,6 +4,6 @@ def prime?(num)
     return false
   i = 2 
   limit = num / i
-  while i < num
+  while i < limit
 end
 end
