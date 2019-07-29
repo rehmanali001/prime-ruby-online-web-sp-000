@@ -1,16 +1,8 @@
 # Add  code here!
 def prime?(num)
-  if num == 0 || num == 1
+  if n <0 or n == 0 or n == 1 
     return false
-  end
-  i = 2 
-  limit = num / i
-  while i < limit
-  if num % i == 0 
-    return false 
+  else
+    (2..n/2).none?{|i| n % i == 0}
+    end
   end 
-  i += 1 
-  limit = num / i
-end
-return true
-end
