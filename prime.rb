@@ -5,5 +5,6 @@ def prime?(num)
   i = 2 
   limit = num / i
   while i < limit
+  if num 
 end
 end
